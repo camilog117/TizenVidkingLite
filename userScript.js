@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Vidking Lite para Tizen TV
-// @version      1.0.0
+// @version      1.1
+
 // @match        https://raw.githubusercontent.com/*/*/main/index.html*
 // @grant        none
 // @run-at       document-start
