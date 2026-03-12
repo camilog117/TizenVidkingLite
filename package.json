@@ -1,0 +1,11 @@
+{
+  "name": "@tuusuario/vidking-lite",
+  "appName": "Vidking Player TV",
+  "version": "1.0.0",
+  "description": "Reproductor ligero Vidking para TizenBrew (sin pantalla negra)",
+  "packageType": "mods",
+  "websiteURL": "https://raw.githubusercontent.com/tuusuario/TizenVidkingLite/main/index.html",
+  "main": "userScript.js",
+  "author": "Camilo",
+  "license": "MIT"
+}
