@@ -13,24 +13,8 @@
 </head>
 <body>
   <h1>🎬 Vidking Player TV</h1>
-  <div class="menu">
-    <button onclick="loadMovie(1078605)">Weapons (Ejemplo)</button>
-    <button onclick="loadMovie(550)">Fight Club</button>
-    <button onclick="loadMovie(27205)">Inception</button>
-    <button onclick="loadSeries(1399,1,1)">Game of Thrones S01E01</button>
-    <!-- Agrega más botones con TMDB IDs que quieras -->
-  </div>
-  <iframe id="player" allowfullscreen></iframe>
-
-  <script>
-    function loadMovie(id) {
-      document.getElementById('player').src = `https://www.vidking.net/embed/movie/${id}?autoPlay=true&color=e50914`;
-    }
-    function loadSeries(id, season, episode) {
-      document.getElementById('player').src = `https://www.vidking.net/embed/tv/${id}/${season}/${episode}?autoPlay=true&color=e50914&nextEpisode=true`;
-    }
-    // Carga un ejemplo al inicio
-    window.onload = () => loadMovie(1078605);
-  </script>
+  <video id="video" controls autoplay width="100%" height="85vh">
+    <source src="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8" type="application/x-mpegURL">
+  </video>
 </body>
 </html>
